@@ -5,9 +5,9 @@
 5 -> 1, 8, 27, 64, 125
 */
 Console.WriteLine("Введите число N: ");
-int nNumber = Convert.ToInt32(Console.ReadLine());
+int Number = Convert.ToInt32(Console.ReadLine());
 
-for (int i = 1; i <= nNumber; i++) 
+for (int i = 1; i <= Number; i++) 
 {
     Console.Write($" {i * i * i} ");
 }
